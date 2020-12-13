@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MarkerContracts/1.0.0": {
+        "dependencies": {
+          "infraDALContracts": "1.0.2"
+        },
+        "runtime": {
+          "MarkerContracts.dll": {}
+        }
+      },
+      "infraDALContracts/1.0.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/infraDALContracts.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarkerContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "infraDALContracts/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6S+2IPrabmEn/ll87acZDKKX9I3nNF2N1Dgryvx+PVnCyUJQJSy0weEI35ke6Tf/h8jDtkY0MMMXycq2Wk4yGw==",
+      "path": "infradalcontracts/1.0.2",
+      "hashPath": "infradalcontracts.1.0.2.nupkg.sha512"
+    }
+  }
+}

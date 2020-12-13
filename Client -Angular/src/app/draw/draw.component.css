@@ -1,0 +1,20 @@
+.container{
+    width:1000px;
+    height:1000px ;
+/* background-color: palevioletred; */
+  
+}
+.canvas{
+    position: absolute;
+}
+.img{
+    position: absolute;
+    width:1000px;
+    height:1000px ;
+}
+.btn{
+    margin: 10px;
+    text-align: center;
+    direction: rtl;
+    border: black 1px solid;
+}

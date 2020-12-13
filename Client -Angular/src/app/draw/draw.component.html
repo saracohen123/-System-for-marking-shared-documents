@@ -1,0 +1,43 @@
+<button class="btn btn-default" (click)="SetMode('rectengle')">Rect</button>
+<!-- rectengle -->
+<button class="btn btn-default" (click)="SetMode('ellipse')">Ellipse</button>
+<!-- ellipse -->
+<button class="btn btn-default" (click)="SetMode('del')">delete shape</button>
+<button class="btn btn-default" (click)="Clear()">Clear</button>
+<button class="btn btn-default" (click)="SetMode('text')">TEXT</button>
+<span *ngIf="ifShowText" >
+<input   type="text"    [(ngModel)]="currentmarker.text" />
+<input class="btn btn-default" style="margin:0px" type="button" value="save" (click)="SaveComment()" />
+</span>
+<label>Stroke Color:</label>
+<input id="foreColor" type="color" value='blue' rgba />
+
+<div *ngIf="canShare">
+<input class="btn btn-default" type="button" value="הסרת משותפים" (click)="ShowSharedUsers()"/>    
+<input class="btn btn-default" type="button" value="שיתוף המסמך" (click)="ToShowUsers()"/>
+
+<div *ngIf="showUsers">
+
+ <ng-select #NgSelectComponent  id="NgSelectComponent" [allowClear]="true"
+ [multiple]="true"
+             [items]="items"
+             [disabled]="disabled"
+             [(ngModel)]="selected"
+             placeholder="select users">
+ </ng-select>
+
+<input class="btn btn-default" type="button" (click)="HidesSharingOptions()" value="X"/>
+</div> 
+<input *ngIf="removeFlag" class="btn btn-default" type="button" value="מחק" (click)="RemoveShareUsers()"/>
+<input  *ngIf="addFlag"  class="btn btn-default" type="button" value="הוספה" (click)="AddUsers()"/>
+</div>
+<div #container id="container" class="container" [style.background-image]="backgroundImg" style="background-size:1000px 1000px">
+     <!-- canvas - shape -->
+    <canvas class="canvas" #shapeCanvas id="shapeCanvas"></canvas>
+  <!-- canvas - free draw -->
+    <canvas class="canvas" #drawingCanvas id="drawingCanvas"></canvas>
+    <div #div1 style="border: 3px solid red;
+    position: relative;visibility: hidden;"></div>
+
+</div>
+

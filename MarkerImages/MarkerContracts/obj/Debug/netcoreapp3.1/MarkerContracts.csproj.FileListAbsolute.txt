@@ -1,0 +1,9 @@
+E:\sara_course\project\project\MarkerImages\MarkerContracts\bin\Debug\netcoreapp3.1\MarkerContracts.deps.json
+E:\sara_course\project\project\MarkerImages\MarkerContracts\bin\Debug\netcoreapp3.1\MarkerContracts.dll
+E:\sara_course\project\project\MarkerImages\MarkerContracts\bin\Debug\netcoreapp3.1\MarkerContracts.pdb
+E:\sara_course\project\project\MarkerImages\MarkerContracts\obj\Debug\netcoreapp3.1\MarkerContracts.csprojAssemblyReference.cache
+E:\sara_course\project\project\MarkerImages\MarkerContracts\obj\Debug\netcoreapp3.1\MarkerContracts.AssemblyInfoInputs.cache
+E:\sara_course\project\project\MarkerImages\MarkerContracts\obj\Debug\netcoreapp3.1\MarkerContracts.AssemblyInfo.cs
+E:\sara_course\project\project\MarkerImages\MarkerContracts\obj\Debug\netcoreapp3.1\MarkerContracts.dll
+E:\sara_course\project\project\MarkerImages\MarkerContracts\obj\Debug\netcoreapp3.1\MarkerContracts.pdb
+E:\sara_course\project\project\MarkerImages\MarkerContracts\obj\Debug\netcoreapp3.1\MarkerContracts.csproj.CoreCompileInputs.cache

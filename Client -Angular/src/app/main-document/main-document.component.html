@@ -1,0 +1,16 @@
+
+<div dir="rtl" style="text-align: center;padding: 50px;">
+<input type="button" class="btn btn-dark" style="margin-right: 30px;" value="יצירת מסמך" (click)="CreateDocument()" />
+<input type="button" class="btn btn-dark" style="margin-right: 30px;" value="המסמכים שאני משותף בהם" (click)="DocsIParticipateIn()" />
+<input type="button" class="btn btn-dark" style="margin-right: 30px;" value="המסמכים שלי" (click)="GetMyDocuments()" />
+<div class="row">
+<div  *ngFor="let document of listDocuments;let i = index">
+    <div style="padding-left:50px">
+    {{document.documentName}}
+    <br>
+    <img [src]="document.imageURL" width="100px" height="100px" (click)="ToViewDoc(document)" />
+</div>
+<br/><br/><br/>
+</div>
+</div>
+</div>

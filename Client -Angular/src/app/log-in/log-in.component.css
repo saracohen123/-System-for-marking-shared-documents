@@ -1,0 +1,10 @@
+#all{
+text-align: center;
+direction: rtl;
+
+}
+.form-control{
+    margin-right: 300px;
+    text-align: center;
+    width: 400px;
+}

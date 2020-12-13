@@ -1,0 +1,12 @@
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\bin\Debug\netcoreapp3.1\MarkerImagesServiceImp.deps.json
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\bin\Debug\netcoreapp3.1\MarkerImagesServiceImp.dll
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\bin\Debug\netcoreapp3.1\MarkerImagesServiceImp.pdb
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\bin\Debug\netcoreapp3.1\MarkerContracts.dll
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\bin\Debug\netcoreapp3.1\MarkerContracts.pdb
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\obj\Debug\netcoreapp3.1\MarkerImagesServiceImp.csprojAssemblyReference.cache
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\obj\Debug\netcoreapp3.1\MarkerImagesServiceImp.AssemblyInfoInputs.cache
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\obj\Debug\netcoreapp3.1\MarkerImagesServiceImp.AssemblyInfo.cs
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\obj\Debug\netcoreapp3.1\MarkerImagesServiceImp.csproj.CopyComplete
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\obj\Debug\netcoreapp3.1\MarkerImagesServiceImp.dll
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\obj\Debug\netcoreapp3.1\MarkerImagesServiceImp.pdb
+E:\sara_course\project\project\MarkerImages\MarkerImagesServiceImp\obj\Debug\netcoreapp3.1\MarkerImagesServiceImp.csproj.CoreCompileInputs.cache

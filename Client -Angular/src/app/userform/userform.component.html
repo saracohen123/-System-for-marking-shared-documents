@@ -1,0 +1,10 @@
+
+<div dir="rtl" style="text-align: center;padding-top: 20px;" >
+<form  [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <label>User ID(email address)</label>
+    <input id="UserID" class="form-control"  formControlName="UserID" /><br />
+    <label>Your name</label>
+    <input id="UserName" class="form-control"  formControlName="UserName" /><br />
+    <button type="submit" class="btn btn-default" style="border: black 1px solid" [disabled]='!userForm.valid'>Register</button>
+</form>
+</div>

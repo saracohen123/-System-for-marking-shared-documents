@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\sara_course\\project\\project\\MarkerImages\\NUnitTestProject2\\NUnitTestProject2.csproj": {}
+  },
+  "projects": {
+    "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\MarkerContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\MarkerContracts.csproj",
+        "projectName": "MarkerContracts",
+        "projectPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\MarkerContracts.csproj",
+        "packagesPath": "C:\\Users\\כהן\\.nuget\\packages\\",
+        "outputPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\כהן\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\כהן\\Desktop\\111111": {},
+          "E:\\sara_course\\project\\Packages": {},
+          "E:\\sara_course\\project\\Packages\\infradal": {},
+          "E:\\sara_course\\project\\Packages\\packages_resolver": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "infraDALContracts": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400-preview-015178\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\sara_course\\project\\project\\MarkerImages\\MarkerDAL\\MarkerImagesDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerDAL\\MarkerImagesDAL.csproj",
+        "projectName": "MarkerImagesDAL",
+        "projectPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerDAL\\MarkerImagesDAL.csproj",
+        "packagesPath": "C:\\Users\\כהן\\.nuget\\packages\\",
+        "outputPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\כהן\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\כהן\\Desktop\\111111": {},
+          "E:\\sara_course\\project\\Packages": {},
+          "E:\\sara_course\\project\\Packages\\infradal": {},
+          "E:\\sara_course\\project\\Packages\\packages_resolver": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\MarkerContracts.csproj": {
+                "projectPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\MarkerContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DALimpSQL": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "DI_Factory": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DalParametersConverter": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "infraDALContracts": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400-preview-015178\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\sara_course\\project\\project\\MarkerImages\\MarkerImagesServiceImp\\MarkerImagesServiceImp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerImagesServiceImp\\MarkerImagesServiceImp.csproj",
+        "projectName": "MarkerImagesServiceImp",
+        "projectPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerImagesServiceImp\\MarkerImagesServiceImp.csproj",
+        "packagesPath": "C:\\Users\\כהן\\.nuget\\packages\\",
+        "outputPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerImagesServiceImp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\כהן\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\כהן\\Desktop\\111111": {},
+          "E:\\sara_course\\project\\Packages": {},
+          "E:\\sara_course\\project\\Packages\\infradal": {},
+          "E:\\sara_course\\project\\Packages\\packages_resolver": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\MarkerContracts.csproj": {
+                "projectPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\MarkerContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Contracts": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400-preview-015178\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\sara_course\\project\\project\\MarkerImages\\NUnitTestProject2\\NUnitTestProject2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\sara_course\\project\\project\\MarkerImages\\NUnitTestProject2\\NUnitTestProject2.csproj",
+        "projectName": "NUnitTestProject2",
+        "projectPath": "E:\\sara_course\\project\\project\\MarkerImages\\NUnitTestProject2\\NUnitTestProject2.csproj",
+        "packagesPath": "C:\\Users\\כהן\\.nuget\\packages\\",
+        "outputPath": "E:\\sara_course\\project\\project\\MarkerImages\\NUnitTestProject2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\כהן\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\כהן\\Desktop\\111111": {},
+          "E:\\sara_course\\project\\Packages": {},
+          "E:\\sara_course\\project\\Packages\\infradal": {},
+          "E:\\sara_course\\project\\Packages\\packages_resolver": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\MarkerContracts.csproj": {
+                "projectPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerContracts\\MarkerContracts.csproj"
+              },
+              "E:\\sara_course\\project\\project\\MarkerImages\\MarkerDAL\\MarkerImagesDAL.csproj": {
+                "projectPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerDAL\\MarkerImagesDAL.csproj"
+              },
+              "E:\\sara_course\\project\\project\\MarkerImages\\MarkerImagesServiceImp\\MarkerImagesServiceImp.csproj": {
+                "projectPath": "E:\\sara_course\\project\\project\\MarkerImages\\MarkerImagesServiceImp\\MarkerImagesServiceImp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "infraDALContracts": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400-preview-015178\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

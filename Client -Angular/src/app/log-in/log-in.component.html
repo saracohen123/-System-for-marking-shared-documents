@@ -1,0 +1,12 @@
+<div id="all">
+    <br>
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <label>User ID(email address)</label>
+    <input id="UserID" class="form-control" formControlName="UserID" /><br />
+    <label>Your name</label>
+    <input id="UserName" class="form-control" formControlName="UserName" /><br />
+    <button type="submit" class="btn btn-dark" [disabled]='!userForm.valid'>Log In</button>
+</form><br>
+<label>פעם ראשונה במערכת?</label><br>
+<input type="button" class="btn btn-dark" (click)="Register()" value="להרשמה"/>
+</div>

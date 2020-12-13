@@ -1,0 +1,104 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MarkerDAL/1.0.0": {
+        "dependencies": {
+          "DI_Factory": "1.0.1",
+          "MarkerContracts": "1.0.0"
+        },
+        "runtime": {
+          "MarkerDAL.dll": {}
+        }
+      },
+      "Contracts/1.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/Contracts.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "DI_Factory/1.0.1": {
+        "dependencies": {
+          "Contracts": "1.0.1",
+          "Microsoft.Extensions.DependencyInjection": "3.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/DI_Factory.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56504"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56504"
+          }
+        }
+      },
+      "MarkerContracts/1.0.0": {
+        "runtime": {
+          "MarkerContracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarkerDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qh7AUbX1wR442R3GyNSCD2PQ7WmpipYe+CyYVFAWCQjWhvzyDYSqZ8dJ1BCo4gVkkfnjritD66j4SuuJNfPWtg==",
+      "path": "contracts/1.0.1",
+      "hashPath": "contracts.1.0.1.nupkg.sha512"
+    },
+    "DI_Factory/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tDIPxBMZD3CyyPcLFYCAtR9m5iKSMuA5wRrOkDpn8bnHGYF7Fi7zT+uNkaDEbWB4pACO5+mC1g3jfwaACTv6Tg==",
+      "path": "di_factory/1.0.1",
+      "hashPath": "di_factory.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KVkv3aF2MQpmGFRh4xRx2CNbc2sjDFk+lH4ySrjWSOS+XoY1Xc+sJphw3N0iYOpoeCCq8976ceVYDH8sdx2qIQ==",
+      "path": "microsoft.extensions.dependencyinjection/3.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-44rDtOf1JXXAFpNT2EXMExaDm/4OJ2RXOL9i9lE4bK427nzC7Exphv+beB6IgluyE2GIoo8zezTStMXI7MQ8WA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512"
+    },
+    "MarkerContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

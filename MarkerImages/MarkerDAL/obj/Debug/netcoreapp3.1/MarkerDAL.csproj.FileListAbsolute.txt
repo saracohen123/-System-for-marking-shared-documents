@@ -1,0 +1,11 @@
+E:\sara_course\project\project\MarkerImages\MarkerDAL\bin\Debug\netcoreapp3.1\MarkerDAL.deps.json
+E:\sara_course\project\project\MarkerImages\MarkerDAL\bin\Debug\netcoreapp3.1\MarkerDAL.dll
+E:\sara_course\project\project\MarkerImages\MarkerDAL\bin\Debug\netcoreapp3.1\MarkerDAL.pdb
+E:\sara_course\project\project\MarkerImages\MarkerDAL\bin\Debug\netcoreapp3.1\MarkerContracts.dll
+E:\sara_course\project\project\MarkerImages\MarkerDAL\bin\Debug\netcoreapp3.1\MarkerContracts.pdb
+E:\sara_course\project\project\MarkerImages\MarkerDAL\obj\Debug\netcoreapp3.1\MarkerDAL.csprojAssemblyReference.cache
+E:\sara_course\project\project\MarkerImages\MarkerDAL\obj\Debug\netcoreapp3.1\MarkerDAL.AssemblyInfoInputs.cache
+E:\sara_course\project\project\MarkerImages\MarkerDAL\obj\Debug\netcoreapp3.1\MarkerDAL.AssemblyInfo.cs
+E:\sara_course\project\project\MarkerImages\MarkerDAL\obj\Debug\netcoreapp3.1\MarkerDAL.csproj.CopyComplete
+E:\sara_course\project\project\MarkerImages\MarkerDAL\obj\Debug\netcoreapp3.1\MarkerDAL.dll
+E:\sara_course\project\project\MarkerImages\MarkerDAL\obj\Debug\netcoreapp3.1\MarkerDAL.pdb

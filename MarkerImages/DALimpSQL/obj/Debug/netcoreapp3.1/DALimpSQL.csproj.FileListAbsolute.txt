@@ -1,0 +1,9 @@
+E:\sara_course\project\project\MarkerImages\DALimpSQL\bin\Debug\netcoreapp3.1\DALimpSQL.deps.json
+E:\sara_course\project\project\MarkerImages\DALimpSQL\bin\Debug\netcoreapp3.1\DALimpSQL.dll
+E:\sara_course\project\project\MarkerImages\DALimpSQL\obj\Debug\netcoreapp3.1\DALimpSQL.csprojAssemblyReference.cache
+E:\sara_course\project\project\MarkerImages\DALimpSQL\obj\Debug\netcoreapp3.1\DALimpSQL.AssemblyInfoInputs.cache
+E:\sara_course\project\project\MarkerImages\DALimpSQL\obj\Debug\netcoreapp3.1\DALimpSQL.AssemblyInfo.cs
+E:\sara_course\project\project\MarkerImages\DALimpSQL\bin\Debug\netcoreapp3.1\DALimpSQL.pdb
+E:\sara_course\project\project\MarkerImages\DALimpSQL\obj\Debug\netcoreapp3.1\DALimpSQL.dll
+E:\sara_course\project\project\MarkerImages\DALimpSQL\obj\Debug\netcoreapp3.1\DALimpSQL.pdb
+E:\sara_course\project\project\MarkerImages\DALimpSQL\obj\Debug\netcoreapp3.1\DALimpSQL.csproj.CoreCompileInputs.cache

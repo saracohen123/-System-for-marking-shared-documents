@@ -1,0 +1,10 @@
+<div dir="rtl"  style="text-align: center;padding-top: 20px;">
+<input type="text" [(ngModel)]="document.documentName"  class="form-control" style="width: 200px;margin-right: 400px" placeholder="insert name document"/>
+<div class="row" style="margin-bottom:15px;">
+    <div style="margin-right: 385px;" class="col-md-3">
+      <input type="file"  #file placeholder="Choose file"  (change)="uploadFile(file.files)" style="display:none;">
+      <button type="button"  class="btn btn-dark"  (click)="file.click()">Upload File</button>
+    </div>
+  </div>
+ <button type="submit" #buttonSubmit id="buttonSubmit" class="btn btn-dark" disabled (click)="submit()">create</button> 
+</div>
